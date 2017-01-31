@@ -15,6 +15,6 @@ public class SimpleRestWebAppInitializer extends AbstractAnnotationConfigDispatc
 
     @Override
     protected String[] getServletMappings() {
-        return new String[] { "/" };
+        return new String[] { "/*" };
     }
 }
